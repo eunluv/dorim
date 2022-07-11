@@ -71,23 +71,18 @@
             align-items: center;
         }
         .linklist>a{
-            width: 80px !important;
-            height: 30px !important;
-            border-radius: 8px;
+            padding: 0;
+            width: 80px;
+            height: 30px; 
+
+            line-height: 30px;
 
             background-color: rgb(243, 168, 56);
 
             font-size: 15px;
             color: white;
 
-            text-decoration: none;
-            text-align: center;
-            line-height: 30px;
-
             margin-right:20px;
-        }
-        .linklist>a:hover{
-            background-color: rgb(185, 129, 45);
         }
         .contents{
             padding-top: 20px;
@@ -115,9 +110,9 @@
                     <p>오늘부터 나도 개발자😎</p>
                 </div>
                 <div class="linklist">
-                    <a target="_blank" href="https://github.com/">GitHub</a>
-                    <a target="_blank" href="https://www.instagram.com/">Instagram</a>
-                    <a target="_blank" href="https://ko-kr.facebook.com/">facebook</a>
+                    <a href="https://github.com/" class="btn" tabindex="-1" role="button" aria-disabled="true" target="_blank">GitHub</a>
+                    <a href="https://www.instagram.com/" class="btn" tabindex="-1" role="button" aria-disabled="true" target="_blank">Instagram</a>
+                    <a href="https://ko-kr.facebook.com/" class="btn" tabindex="-1" role="button" aria-disabled="true" target="_blank">facebook</a>
                 </div>
             </div>
         </header>
